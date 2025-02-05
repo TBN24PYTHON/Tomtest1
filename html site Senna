@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentaire sur Ayrton Senna</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #333;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .image-gallery img {
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Documentaire sur Ayrton Senna</h1>
+    </header>
+
+    <nav>
+        <a href="#biographie">Biographie</a>
+        <a href="#carriere">Carrière</a>
+        <a href="#moments-cles">Moments Clés</a>
+    </nav>
+
+    <section id="biographie">
+        <h2>Biographie</h2>
+        <p>Ayrton Senna da Silva est né le 21 mars 1960 à São Paulo, Brésil. Il est considéré comme l'un des plus grands pilotes de l'histoire de la Formule 1, connu pour son talent exceptionnel, sa détermination et son esprit de compétition. Il a commencé sa carrière en karting à un jeune âge avant de gravir les échelons vers la Formule 1 en 1984 avec l'écurie Toleman.</p>
+        <p>Senna a marqué les esprits par ses performances spectaculaires, notamment lors du Grand Prix de Monaco en 1984, où il a fait une remontée inouïe sous la pluie. Cette victoire a lancé sa carrière, le propulsant dans les plus grands écuries et lui permettant de remporter trois championnats du monde de F1 (1988, 1990, 1991) avec McLaren.</p>
+    </section>
+
+    <section id="carriere">
+        <h2>Carrière en Formule 1</h2>
+        <p>Senna a commencé sa carrière en Formule 1 avec l'écurie Toleman en 1984, avant de rejoindre Lotus, puis McLaren. Sa rivalité légendaire avec Alain Prost, notamment lors de la saison 1989 et 1990, est entrée dans l'histoire. Il a remporté son premier titre mondial en 1988 après une saison spectaculaire, où il a dominé malgré les conditions difficiles et une forte compétition.</p>
+        <p>Senna a également marqué l'histoire par sa performance sous la pluie, où il a souvent été invincible. La plus célèbre de ces performances a eu lieu lors du Grand Prix de Monaco 1984, où il a montré une maîtrise totale de la voiture, et lors du Grand Prix d'Europe 1993 à Donington Park.</p>
+        <div class="image-gallery">
+            <img src="senna-monaco-1984.jpg" alt="Senna à Monaco 1984">
+            <img src="senna-mclaren.jpg" alt="Senna avec McLaren">
+            <img src="senna-podium.jpg" alt="Senna sur le podium">
+        </div>
+    </section>
+
+    <section id="moments-cles">
+        <h2>Moments Clés</h2>
+        <p>Parmi les moments clés de sa carrière, on se souvient particulièrement de la tragédie de 1994, lorsque Senna est décédé lors du Grand Prix de Saint-Marin. Cette tragédie a profondément marqué le monde de la Formule 1 et le sport automobile en général. La mort de Senna a conduit à des changements importants en matière de sécurité dans le sport.</p>
+        <p>Un autre moment marquant de sa carrière fut sa victoire émouvante au Grand Prix du Brésil en 1991, où il a triomphé devant son public et a montré son amour pour le Brésil et ses fans.</p>
+        <div class="image-gallery">
+            <img src="senna-imola-1994.jpg" alt="Senna au Grand Prix de Saint-Marin 1994">
+            <img src="senna-brazil-1991.jpg" alt="Senna lors de sa victoire au Brésil">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Documentaire sur Ayrton Senna</p>
+    </footer>
+</body>
+</html>
